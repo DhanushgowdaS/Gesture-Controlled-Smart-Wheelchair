@@ -118,10 +118,4 @@ Gesture-Controlled-Smart-Wheelchair
 - Battery monitoring
 - Autonomous navigation
 
----
 
-## Author
-
-**Dhanush S**
-
-Embedded Systems • IoT • Robotics
