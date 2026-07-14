@@ -20,23 +20,6 @@ The wheelchair also incorporates obstacle detection and safety mechanisms using 
 
 ---
 
-## Hardware Components
-
-| Component | Quantity |
-|-----------|---------:|
-| ESP32 Development Board | 2 |
-| ADXL345 Accelerometer | 1 |
-| L298N Motor Driver | 1 |
-| TT DC Gear Motors | 4 |
-| HC-SR04 Ultrasonic Sensor | 2 |
-| IR Obstacle Sensor | 2 |
-| LM2596 Buck Converter | 1 |
-| Buzzer | 1 |
-| LEDs | 4 |
-| Li-ion Battery Pack | 1 |
-
----
-
 ## System Architecture
 
 ```
