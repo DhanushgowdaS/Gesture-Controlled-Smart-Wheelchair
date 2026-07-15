@@ -11,7 +11,7 @@
 #define IN4 26
 
 // Speed (0 - 255)
-int motorSpeed = 180;
+int motorSpeed = 200;
 
 // Structure
 typedef struct struct_message {
@@ -55,7 +55,7 @@ void backward() {
   Serial.println("BACKWARD");
 }
 
-void left() {
+void right() {
 
   digitalWrite(IN1, LOW);
   digitalWrite(IN2, HIGH);
@@ -63,10 +63,10 @@ void left() {
   digitalWrite(IN3, HIGH);
   digitalWrite(IN4, LOW);
 
-  Serial.println("LEFT");
+  Serial.println("RIGHT");
 }
 
-void right() {
+void left() {
 
   digitalWrite(IN1, HIGH);
   digitalWrite(IN2, LOW);
@@ -74,7 +74,7 @@ void right() {
   digitalWrite(IN3, LOW);
   digitalWrite(IN4, HIGH);
 
-  Serial.println("RIGHT");
+  Serial.println("LEFT");
 }
 
 // ---------------- ESP-NOW Callback ----------------
